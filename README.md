@@ -39,7 +39,7 @@ citeseer/
 ├─testL/C.txt: test file. L/C, i.e., Label pre Class, L/C = 20, 40, 60.   
 ├─trainL/C.txt: train file. L/C, i.e., Label pre Class, L/C = 20, 40, 60.  
 └─knn
-   └─ck.txt:  feature graph file. k = 2~9
+   └─ck.txt: feature graph file. k = 2~9
 ````
 # Parameter Settings
 
