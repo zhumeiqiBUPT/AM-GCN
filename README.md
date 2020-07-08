@@ -30,7 +30,7 @@ python main.py -d citeseer -l 20
 * **Coraml**: [Deep Gaussian Embedding of Graphs: Unsupervised Inductive Learning via Ranking.](https://github.com/abojchevski/graph2gauss/)  
 
 ## Usage
-Please first unzip the data folders and then use. The files in folders are as follows:
+Please first **unzip** the data folders and then use. The files in folders are as follows:
 ````
 citeseer/
 ├─citeseer.edge: edge file.  
