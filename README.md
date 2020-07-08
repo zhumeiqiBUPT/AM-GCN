@@ -2,32 +2,32 @@
 Source code for KDD2020 "[AM-GCN: Adaptive Multi-channel Graph Convolutional Networks](https://arxiv.org/pdf/2007.02265.pdf)"
 
 # Environment Settings 
-python == 3.7   
-Pytorch == 1.1.0  
-Numpy == 1.16.2  
-SciPy == 1.3.1  
-Networkx == 2.4  
-scikit-learn == 0.21.3  
+* python == 3.7   
+* Pytorch == 1.1.0  
+* Numpy == 1.16.2  
+* SciPy == 1.3.1  
+* Networkx == 2.4  
+* scikit-learn == 0.21.3  
 
 # Usage 
 ````
 python main.py -d dataset -l labelrate
 ````
-**dataset**: in \[citeseer, uai, acm, BlogCatalog, flickr, coraml\], require = True.  
-**labelrate**: in \[20, 40, 60\], require = True.  
+* **dataset**: including \[citeseer, uai, acm, BlogCatalog, flickr, coraml\], required.  
+* **labelrate**: including \[20, 40, 60\], required.  
 
 e.g.  
 ````
 python main.py -d citeseer -l 20
 ````
-# Data
 
+# Data
 ## Link
-**Citeseer**: [Semi-Supervised Classifcation with Graph Convolutional Networks.](https://github.com/tkipf/pygcn)  
-**UAI2010**: A Unifed Weakly Supervised Framework for Community Detection and Semantic Matching. 
-**ACM**: [Heterogeneous Graph Attention Network.](https://github.com/Jhy1993/HAN)  
-**BlogCatalog,Flickr**: [Co-Embedding Attributed Networks.](https://github.com/mengzaiqiao/CAN)  
-**Coraml**: [Deep Gaussian Embedding of Graphs: Unsupervised Inductive Learning via Ranking.](https://github.com/abojchevski/graph2gauss/)  
+* **Citeseer**: [Semi-Supervised Classifcation with Graph Convolutional Networks.](https://github.com/tkipf/pygcn)  
+* **UAI2010**: A Unifed Weakly Supervised Framework for Community Detection and Semantic Matching. 
+* **ACM**: [Heterogeneous Graph Attention Network.](https://github.com/Jhy1993/HAN)  
+* **BlogCatalog,Flickr**: [Co-Embedding Attributed Networks.](https://github.com/mengzaiqiao/CAN)  
+* **Coraml**: [Deep Gaussian Embedding of Graphs: Unsupervised Inductive Learning via Ranking.](https://github.com/abojchevski/graph2gauss/)  
 
 ## Use
 Please first unzip the data folders and then use. The files in folders are as follows:
