@@ -2,7 +2,7 @@
 Source code for KDD2020 "[AM-GCN: Adaptive Multi-channel Graph Convolutional Networks](https://arxiv.org/pdf/2007.02265.pdf)"
 
 # Environment Settings 
-python == 3.7
+python == 3.7 <\br>
 Pytorch == 1.1.0
 Numpy == 1.16.2
 SciPy == 1.3.1
