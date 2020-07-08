@@ -29,7 +29,7 @@ python main.py -d citeseer -l 20
 * **BlogCatalog,Flickr**: [Co-Embedding Attributed Networks.](https://github.com/mengzaiqiao/CAN)  
 * **Coraml**: [Deep Gaussian Embedding of Graphs: Unsupervised Inductive Learning via Ranking.](https://github.com/abojchevski/graph2gauss/)  
 
-## Use
+## Usage
 Please first unzip the data folders and then use. The files in folders are as follows:
 ````
 citeseer/
@@ -43,4 +43,8 @@ citeseer/
 ````
 # Parameter Settings
 
+Recorded in ./AMGCN/config/[L/C+dataset].ini
+
+* **Model_setup**: parameters for training AMGCN, such as nhid1, nhid2, beta, theta... 
+* **Data_setting**: dataset setttings, such as paths for input, node numbers, feature dimensions.
 
