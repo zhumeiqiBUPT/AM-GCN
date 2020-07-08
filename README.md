@@ -23,7 +23,7 @@ python main.py -d citeseer -l 20
 
 # Data
 ## Link
-* **Citeseer**: [Semi-Supervised Classifcation with Graph Convolutional Networks.](https://github.com/tkipf/pygcn)  
+* **Citeseer**: [Semi-Supervised Classifcation with Graph Convolutional Networks.](https://github.com/tkipf/gcn)  
 * **UAI2010**: A Unifed Weakly Supervised Framework for Community Detection and Semantic Matching. 
 * **ACM**: [Heterogeneous Graph Attention Network.](https://github.com/Jhy1993/HAN)  
 * **BlogCatalog,Flickr**: [Co-Embedding Attributed Networks.](https://github.com/mengzaiqiao/CAN)  
