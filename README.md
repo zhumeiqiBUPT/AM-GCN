@@ -10,7 +10,9 @@ Networkx == 2.4
 scikit-learn == 0.21.3  
 
 # Usage 
-
+''''
+python main.py -d dataset -l labelrate
+''''
 # Data
 
 # Parameter Settings
