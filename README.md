@@ -13,23 +13,24 @@ scikit-learn == 0.21.3
 ````
 python main.py -d dataset -l labelrate
 ````
-**dataset**: citeseer, uai, acm, BlogCatalog, flickr, coraml  
-**labelrate**: 20, 40, 60  
+**dataset**: in \[citeseer, uai, acm, BlogCatalog, flickr, coraml\], require = True.  
+**labelrate**: in \[20, 40, 60\], require = True.  
+
 e.g.  
 ````
 python main.py -d citeseer -l 20
 ````
 # Data
 
-# Link
+## Link
 **Citeseer**: [Semi-Supervised Classifcation with Graph Convolutional Networks.](https://github.com/tkipf/pygcn)  
 **UAI2010**: A Unifed Weakly Supervised Framework for Community Detection and Semantic Matching. 
 **ACM**: [Heterogeneous Graph Attention Network.](https://github.com/Jhy1993/HAN)  
 **BlogCatalog,Flickr**: [Co-Embedding Attributed Networks.](https://github.com/mengzaiqiao/CAN)  
 **Coraml**: [Deep Gaussian Embedding of Graphs: Unsupervised Inductive Learning via Ranking.](https://github.com/abojchevski/graph2gauss/)  
 
-# Use
-Please first unzip the data folder and then use. The files in folders are as follows:
+## Use
+Please first unzip the data folders and then use. The files in folders are as follows:
 ````
 citeseer/
 ├─citeseer.edge: edge file.  
