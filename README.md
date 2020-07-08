@@ -31,8 +31,8 @@ python main.py -d citeseer -l 20
 # Use
 Please unzip the data to use.
 
-D:.
-│  citeseer.edge  
+citeseer/
+│-- citeseer.edge  
 │  citeseer.feature  
 │  citeseer.label  
 │  test.txt  
