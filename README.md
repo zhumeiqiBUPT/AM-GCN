@@ -43,9 +43,9 @@ citeseer/
 ````
 # Parameter Settings
 
-Recorded in *./AMGCN/config/[L/C][dataset].ini*  
+Recorded in **./AMGCN/config/[L/C][dataset].ini**
 e.g.  
-*./AMGCN/config/20citeseer.ini*  
+./AMGCN/config/20citeseer.ini  
 
 * **Model_setup**: parameters for training AM-GCN, such as nhid1, nhid2, beta, theta... 
 * **Data_setting**: dataset setttings, such as paths for input, node numbers, feature dimensions...
