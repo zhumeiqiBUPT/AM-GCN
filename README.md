@@ -13,21 +13,47 @@ scikit-learn == 0.21.3
 ````
 python main.py -d dataset -l labelrate
 ````
-dataset: citeseer, uai, acm, BlogCatalog, flickr, coraml  
-labelrate: 20, 40, 60  
+**dataset**: citeseer, uai, acm, BlogCatalog, flickr, coraml  
+**labelrate**: 20, 40, 60  
 e.g.  
 ````
 python main.py -d citeseer -l 20
 ````
 # Data
 
-citeseer: [Semi-Supervised Classifcation with Graph Convolutional Networks.](https://github.com/tkipf/pygcn)  
-uai: [A Unifed Weakly Supervised Framework for Community Detection and Semantic Matching.]  
-acm: [Heterogeneous Graph Attention Network.](https://github.com/Jhy1993/HAN)  
-BlogCatalog,flickr: [Co-Embedding Attributed Networks.](https://github.com/mengzaiqiao/CAN)  
-coraml: [Deep Gaussian Embedding of Graphs: Unsupervised Inductive Learning via Ranking.](https://github.com/abojchevski/graph2gauss/)  
+# Link
+**Citeseer**: [Semi-Supervised Classifcation with Graph Convolutional Networks.](https://github.com/tkipf/pygcn)  
+**UAI2010**: A Unifed Weakly Supervised Framework for Community Detection and Semantic Matching. 
+**ACM**: [Heterogeneous Graph Attention Network.](https://github.com/Jhy1993/HAN)  
+**BlogCatalog,Flickr**: [Co-Embedding Attributed Networks.](https://github.com/mengzaiqiao/CAN)  
+**Coraml**: [Deep Gaussian Embedding of Graphs: Unsupervised Inductive Learning via Ranking.](https://github.com/abojchevski/graph2gauss/)  
 
-Please unzip the data to use  
+# Use
+Please unzip the data to use.
+
+D:.
+│  citeseer.edge
+│  citeseer.feature
+│  citeseer.label
+│  test.txt
+│  test20.txt
+│  test40.txt
+│  test60.txt
+│  train20.txt
+│  train40.txt
+│  train60.txt
+│  
+└─knn
+        c2.txt
+        c3.txt
+        c4.txt
+        c5.txt
+        c6.txt
+        c7.txt
+        c8.txt
+        c9.txt
+        
+
 
 
 # Parameter Settings
