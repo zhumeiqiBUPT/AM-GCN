@@ -13,8 +13,8 @@ Source code for KDD2020 "[AM-GCN: Adaptive Multi-channel Graph Convolutional Net
 ````
 python main.py -d dataset -l labelrate
 ````
-* **dataset**: including \[citeseer, uai, acm, BlogCatalog, flickr, coraml\], required.  
-* **labelrate**: including \[20, 40, 60\], required.  
+* **dataset**: including \[citeseer| uai| acm| BlogCatalog| flickr| coraml\], required.  
+* **labelrate**: including \[20| 40| 60\], required.  
 
 e.g.  
 ````
