@@ -32,19 +32,19 @@ python main.py -d citeseer -l 20
 Please unzip the data to use.
 
 D:.
-│  citeseer.edge
-│  citeseer.feature
-│  citeseer.label
-│  test.txt
-│  test20.txt
-│  test40.txt
-│  test60.txt
-│  train20.txt
-│  train40.txt
-│  train60.txt
-│  
+│  citeseer.edge  
+│  citeseer.feature  
+│  citeseer.label  
+│  test.txt  
+│  test20.txt  
+│  test40.txt  
+│  test60.txt  
+│  train20.txt  
+│  train40.txt  
+│  train60.txt  
+│   
 └─knn
-        c2.txt
+        c2.txt  
         c3.txt
         c4.txt
         c5.txt
