@@ -29,31 +29,15 @@ python main.py -d citeseer -l 20
 **Coraml**: [Deep Gaussian Embedding of Graphs: Unsupervised Inductive Learning via Ranking.](https://github.com/abojchevski/graph2gauss/)  
 
 # Use
-Please unzip the data to use.
-
+Please first unzip the data folder and then use. The files in folders are as follows:
+````
 citeseer/
-│-- citeseer.edge  
-│  citeseer.feature  
-│  citeseer.label  
-│  test.txt  
-│  test20.txt  
-│  test40.txt  
-│  test60.txt  
-│  train20.txt  
-│  train40.txt  
-│  train60.txt  
-│   
+├─citeseer.edge: edge file.  
+├─citeseer.feature: feature file.  
+├─citeseer.label: label file.  
+├─testL/C.txt: test file. L/C, i.e., Label pre Class, L/C = 20, 40, 60.   
+├─trainL/C.txt: train file. L/C, i.e., Label pre Class, L/C = 20, 40, 60.  
 └─knn
-        c2.txt  
-        c3.txt
-        c4.txt
-        c5.txt
-        c6.txt
-        c7.txt
-        c8.txt
-        c9.txt
-        
-
-
-
+   └─ck.txt:  feature graph file. k = 2~9
+````
 # Parameter Settings
