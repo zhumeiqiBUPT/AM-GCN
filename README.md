@@ -27,7 +27,7 @@ python main.py -d citeseer -l 20
 * **UAI2010**: A Unifed Weakly Supervised Framework for Community Detection and Semantic Matching. 
 * **ACM**: [Heterogeneous Graph Attention Network.](https://github.com/Jhy1993/HAN)  
 * **BlogCatalog,Flickr**: [Co-Embedding Attributed Networks.](https://github.com/mengzaiqiao/CAN)  
-* **Coraml**: [Deep Gaussian Embedding of Graphs: Unsupervised Inductive Learning via Ranking.](https://github.com/abojchevski/graph2gauss/)  
+* **CoraFull**: [Deep Gaussian Embedding of Graphs: Unsupervised Inductive Learning via Ranking.](https://github.com/abojchevski/graph2gauss/)  
 
 ## Usage
 Please first **unzip** the data folders and then use. The files in folders are as follows:
