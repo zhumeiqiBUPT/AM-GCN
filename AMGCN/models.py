@@ -20,7 +20,7 @@ class GCN(nn.Module):
         return x
 
     
-# the implementation of attention is the same with HAN(Heterogeneous Graph Attention Network) https://github.com/dmlc/dgl/tree/master/examples/pytorch/han
+
 class Attention(nn.Module):
     def __init__(self, in_size, hidden_size=16):
         super(Attention, self).__init__()
