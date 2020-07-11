@@ -19,7 +19,6 @@ class GCN(nn.Module):
         x = self.gc2(x, adj)
         return x
 
-    
 
 class Attention(nn.Module):
     def __init__(self, in_size, hidden_size=16):
