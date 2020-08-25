@@ -49,3 +49,13 @@ e.g.   **./AMGCN/config/20citeseer.ini**
 * **Model_setup**: parameters for training AM-GCN, such as nhid1, nhid2, beta, theta... 
 * **Data_setting**: dataset setttings, such as paths for input, node numbers, feature dimensions...
 
+# Reference
+````
+@inproceedings{wang2020gcn,
+  title={AM-GCN: Adaptive Multi-channel Graph Convolutional Networks},
+  author={Wang, Xiao and Zhu, Meiqi and Bo, Deyu and Cui, Peng and Shi, Chuan and Pei, Jian},
+  booktitle={Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery \& Data Mining},
+  pages={1243--1253},
+  year={2020}
+}
+````
